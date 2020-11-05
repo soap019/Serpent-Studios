@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+        <meta name="keywords" content="">
+		<title>Arty - Documentation</title>
+		<!-- Favicon -->
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
+		<!-- CSS -->
+		<link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/css/styles.css" rel="stylesheet">
+		<!-- Fonts/Icons -->
+		<link href="assets/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<div class="sidebar">
+			<div class="sidebar-logo">
+				<h4 class="uppercase letter-spacing-2">Arty</h4>
+			</div>
+			<div class="nav-wrapper">
+				<ul class="nav">
+					<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#introduction">Introduction</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#includedfiles">Included Files</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#htmlstructure">HTML Structure</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#fonts">Fonts & Icons</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#scss">SCSS</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#preloaders">Preloaders</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#gdpr">GDPR</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#retina">Retina</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#header">Header</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#portfolio">Portfolio</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#owl-carousel">Owl Carousel</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#smoothscroll">Smooth Scroll Buttons</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#maps">Google Maps</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#contactform">Contact Form</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#elements">Elements</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#helper-classes">Helper Classes</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#credits">Credits</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="tab-content">
+
+			<!-- Introduction -->
+			<div class="tab-pane fade show active" id="introduction">
+				<div class="title">
+					<h2>Introduction</h2>
+				</div>
+				<div class="content-box">
+					<p>Thank you for choosing "Arty - Creative Multi-Purpose HTML5 Template". This documentation will help you to familiarise how the template is structured and how to use the features. If you have any questions that are beyond the scope of this help file, please feel free to email via our user page contact form <a target="_blank" href="https://themeforest.net/user/flatheme">here</a>.</p>
+					<div class="margin-top-20 margin-bottom-20">
+						<p>If you like this template please don't forget rate it 5. :)</p>
+						<a href="https://themeforest.net/downloads" target="_blank">themeforest.net/downloads</a>
+					</div>
+					<ul class="list-unstyled margin-0">
+						<li>Author: <a href="https://themeforest.net/user/flatheme" target="_blank">FlaTheme</a></li>
+						<li>Contact: flatheme@gmail.com</li>
+						<li>Created on: Jan 21, 2020</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Included Files -->
+			<div class="tab-pane fade" id="includedfiles">
+				<div class="title">
+					<h2>Included Files</h2>
+				</div>
+				<div class="content-box">
+					<ul class="list-folder">
+						<li class="folder-open"><span class="font-weight-bold">Arty v1.x</span> - Template files
+							<ul>
+								<li class="folder-open margin-top-10"><span class="font-weight-bold">assets</span> - All the neccessary source files of the template
+									<ul class="margin-top-10">
+										<li class="folder-open"><span class="font-weight-bold">css</span> - CSS and SCSS files
+											<ul class="margin-top-10">
+												<li><span class="font-weight-bold">scss</span> - All SCSS files</li>
+												<li class="folder-file-code"><span class="font-weight-bold">main.css</span> - Output of SCSS (or Compiled SCSS)</li>
+											</ul>
+										</li>
+										<li><span class="font-weight-bold">images</span> - Images</li>
+										<li><span class="font-weight-bold">js</span> - jQuery functions</li>
+										<li><span class="font-weight-bold">php</span> - PHP files</li>
+										<li><span class="font-weight-bold">plugins</span> - All the plugins that are used in the template</li>
+									</ul>
+								</li>
+								<li><span class="font-weight-bold">1. Home Pages</span> - Home Pages</li>
+								<li><span class="font-weight-bold">2. Pages</span> - Pages</li>
+								<li><span class="font-weight-bold">3. Portfolio</span> - Portfolio Pages</li>
+								<li><span class="font-weight-bold">4. Blog</span> - Blog Pages</li>
+								<li><span class="font-weight-bold">5. Shop</span> - Shop Pages</li>
+								<li><span class="font-weight-bold">6. Features</span> - Feature Pages <span class="font-italic">(headers, footers)</span></li>
+							</ul>
+						</li>
+						<li><span class="font-weight-bold">Documentation</span> - Documentation files</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- HTML Structure -->
+			<div class="tab-pane fade" id="htmlstructure">
+				<div class="title">
+					<h2>HTML Structure</h2>
+				</div>
+				<div class="content-box">
+<pre class="margin-bottom-0">
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+  &lt;meta name="description" content=""&gt;
+  &lt;title&gt;Arty&lt;/title&gt;
+  &lt;!-- Favicon --&gt;
+  &lt;link rel="shortcut icon" href="../assets/images/favicon.png"&gt;
+  &lt;!-- CSS --&gt;
+  &lt;link href="../assets/plugins/bootstrap/bootstrap.min.css" rel="stylesheet"&gt;
+  &lt;link href="../assets/plugins/owl-carousel/owl.carousel.min.css" rel="stylesheet"&gt;
+  &lt;link href="../assets/plugins/owl-carousel/owl.theme.default.min.css" rel="stylesheet"&gt;
+  &lt;link href="../assets/plugins/magnific-popup/magnific-popup.min.css" rel="stylesheet"&gt;
+  &lt;link href="../assets/plugins/justified-gallery/justified-gallery.min.css" rel="stylesheet"&gt;
+  &lt;link href="../assets/plugins/sal/sal.min.css" rel="stylesheet"&gt;
+  &lt;link href="../assets/css/main.css" rel="stylesheet"&gt;
+  &lt;!-- Fonts/Icons --&gt;
+  &lt;link href="../assets/plugins/font-awesome/css/fontawesome-all.min.css" rel="stylesheet"&gt;
+  &lt;link href="../assets/plugins/themify/themify-icons.css" rel="stylesheet"&gt;
+  &lt;link href="../assets/plugins/simple-line-icons/css/simple-line-icons.css" rel="stylesheet"&gt;
+
+  &lt;/head&gt;
+  &lt;body data-preloader="1"&gt;
+
+    &lt;div class="wrapper"&gt;
+      &lt;!-- Header --&gt;
+      &lt;div class="header"&gt;
+        ..
+      &lt;/div&gt;
+      &lt;!-- end Header --&gt;
+
+      ...
+
+      &lt;!-- Footer --&gt;
+      &lt;div class="section-xs"&gt;
+       ..
+      &lt;/div&gt;
+      &lt;!--end Footer --&gt;
+    &lt;/div&gt;
+
+  &lt;!-- ***** JAVASCRIPTS ***** --&gt;
+  &lt;script src="../assets/plugins/jquery.min.js">&lt;/script&gt;
+  &lt;script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"&gt;&lt;/script&gt;
+  &lt;script src="../assets/plugins/plugins.js"&gt;&lt;/script&gt;
+  &lt;script src="../assets/js/functions.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
+				</div>
+			</div>
+
+			<!-- Fonts & Icons -->
+			<div class="tab-pane fade" id="fonts">
+				<div class="title">
+					<h2>Fonts & Icons</h2>
+				</div>
+				<div class="content-box">
+					<div class="margin-bottom-50">
+						<h4 class="text-center margin-bottom-30">Fonts</h4>
+						<p>Arty uses <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Open Sans</a> sans-serif and <a href="https://fonts.google.com/specimen/Poppins" target="_blank">Poppins</a> sans-serif fonts from <a href="https://fonts.google.com" target="_blank">Google Fonts Library</a>. And it's included through <mark>assets/css/scss/main.scss</mark></p>
+						<p class="font-italic">main.scss(line: 4)</p>
+<pre>
+<code>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+</code>
+</pre>
+						<div class="margin-top-10">
+							<p>You can use the following classes to set the font family of an element:</p>
+							<ul class="margin-top-10">
+								<li><span class="font-weight-bold">.font-family-primary</span> - Open Sans sans-serif <span class="font-italic">(Default font-family of the template)</span></li>
+								<li><span class="font-weight-bold">.font-family-secondary</span> - Poppins sans-serif</li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<h4 class="text-center margin-bottom-30">Icons</h4>
+						<p><a href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank">FontAwesome</a>, <a href="https://themify.me/themify-icons" target="_blank">Themify Icon</a> and <a href="https://github.com/thesabbir/simple-line-icons">Simple Line Icons</a> sets are included in the template.</p>
+						<p>By default, icons will appear at 16px. And you can change the icon size by using classes:</p>
+						<ul class="margin-top-10">
+							<li><span class="font-weight-bold">.icon-sm</span> - sets icon size to 14px</li>
+							<li><span class="font-weight-bold">.icon-lg</span> - sets icon size to 20px</li>
+							<li><span class="font-weight-bold">.icon-xl</span> - sets icon size to 24px</li>
+							<li><span class="font-weight-bold">.icon-2xl</span> - sets icon size to 28px</li>
+							<li><span class="font-weight-bold">.icon-3xl</span> - sets icon size to 32px</li>
+							<li><span class="font-weight-bold">.icon-4xl</span> - sets icon size to 36px</li>
+							<li><span class="font-weight-bold">.icon-5xl</span> - sets icon size to 40px</li>
+						</ul>
+						<p>You should add the size class to the parent element of an icon:</p>
+<pre class="margin-bottom-0">
+<code>
+&lt;div class="icon-lg"&gt;
+  &lt;i class="ti-check"&gt;&lt;/i&gt;
+&lt;/div&gt;
+</code>
+</pre>
+					</div>
+				</div>
+			</div>
+
+			<!-- SCSS -->
+			<div class="tab-pane fade" id="scss">
+				<div class="title">
+					<h2>SCSS</h2>
+				</div>
+				<div class="content-box">
+					<p>SCSS is an extension of CSS, adding nested rules, variables, mixins, selector inheritance, and more. It's translated to well-formatted, standard CSS using the command line tool or a web-framework plugin.</p>
+					<p>"SCSS" (for "Sassy CSS") is a superset of CSS's syntax. This means that every valid CSS stylesheet is valid SCSS as well. SCSS files use the extension <mark>.scss</mark></p>
+					<div class="margin-top-30">
+						<h5>Recommended Compiler - Scout-App</h5>
+						<p class="margin-top-10">We recommend you to use an application called <a href="http://scout-app.io" target="_blank">Scout-App</a> for converting SCSS to CSS. Scout-App can run in windows, linux and mac.</p>
+						<p class="margin-top-10"><a href="http://scout-app.io" target="_blank">Click here</a> to download the application.</p>
+						<p class="margin-top-10">This video demonstrates how to use Scout-App application:</p>
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe src="https://www.youtube.com/embed/6zA78zMsH9w?rel=0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Page Preloaders -->
+			<div class="tab-pane fade" id="preloaders">
+				<div class="title">
+					<h2>Page Preloaders</h2>
+				</div>
+				<div class="content-box">
+					<p>This template has 3 different Page Preloaders built in it. You can change the preloader style by just simply changing the value number of <mark>data-preloader</mark> in &lt;body&gt; tag with 1 to 3.</p>
+					<br>
+					<p><a href="http://arty.flatheme.net/features/preloaders.html" target="_blank">Click here</a> to view the live preview of page preloaders.</p>
+				</div>
+			</div>
+
+			<!-- GDPR -->
+			<div class="tab-pane fade" id="gdpr">
+				<div class="title">
+					<h2>GDPR - Cookie Consent</h2>
+				</div>
+				<div class="content-box">
+					<h4 class="text-center margin-bottom-30">Setup</h4>
+					<p><span class="font-weight-bold">1.</span> Link <mark>cookie-consent.js</mark> on to the pages you want show Cookie Consent:</p>
+					<img src="assets/images/cookieconsent-link-js.jpg" alt="">
+					<div class="margin-top-30">
+						<p><span class="font-weight-bold">2.</span> Create a Cookie Consent HTML:</p>
+						<img src="assets/images/cookieconsent-html.jpg" alt="">
+<pre>
+<code>
+<span class="text-primary-lighter">&lt;!-- Cookie Consent --&gt;</span>
+&lt;div id="cookie-consent" class="consent-hidden bg-black padding-30 padding-lg-50 text-center"&gt;
+  &lt;p class="font-large"&gt;This website uses cookies & third party services&lt;/p&gt;
+  &lt;a id="accept-consent" class="button button-md button-white button-rounded margin-top-20" href="#"&gt;Accept & Close&lt;/a&gt;
+&lt;/div&gt;
+<span class="text-primary-lighter">&lt;!-- end Cookie Consent --&gt;</span>
+</code>
+</pre>
+					</div>
+					<br>
+					<p class="text-center"><a href="http://arty.flatheme.net/features/gdpr.html" target="_blank">Click here</a> to view the live demo of cookie consent.</p>
+				</div>
+				<div class="content-box margin-top-60">
+					<h4 class="text-center margin-bottom-30">Cookie Expire</h4>
+					<p>Cookie expires in 30 days by default, you can change it by editing the below value in <mark>cookie-consent.js</mark></p>
+					<img src="assets/images/cookieconsent-expire.jpg" alt="">
+				</div>
+			</div>
+
+			<!-- Retina -->
+			<div class="tab-pane fade" id="retina">
+				<div class="title">
+					<h2>Retina</h2>
+				</div>
+				<div class="content-box">
+					<p>retina.js checks the retina activated images on the page to see if there is a high-resolution version of that image on the server. If a high-resolution variant exists, the script will swap in that image in-place.</p>
+					<p>For example, if your picture is located at "/images/my-picture.jpg" and the markup for this image looks like this:</p>
+<pre>
+<code>
+&lt;img src="images/picture.jpg" data-rjs="2"&gt;
+</code>
+</pre>
+					<p>retina.js will look for a corresponding image located at "/images/my-picture@2x.jpg" when it's activated. If it finds the @2x image on your server then it will load that onto your web page, effectively transforming your picture's markup to look like this:</p>
+<pre>
+<code>
+&lt;img src="images/picture@2x.jpg"&gt;
+</code>
+</pre>
+					<p>Please apply <mark>data-rjs="2"</mark> to the image you want to activate the retina.js on:</p>
+<pre class="margin-bottom-0">
+<code>
+&lt;img src="images/picture.jpg" data-rjs="2"&gt;
+</code>
+</pre>
+				</div>
+			</div>
+
+			<!-- Header -->
+			<div class="tab-pane fade" id="header">
+				<div class="title">
+					<h2>Header</h2>
+				</div>
+				<div class="content-box">
+					<h4 class="text-center margin-bottom-40">Sizes</h4>
+					<p>You can increase the size of header by adding <mark>.header-lg or .header-xl</mark> class to the <mark>.header</mark> class element.</p>
+<pre>
+<code>
+&lt;div class="header <span class="font-weight-bold">header-lg</span>"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="logo"&gt;
+      ..
+    &lt;/div&gt;
+    &lt;div class="header-menu-wrapper"&gt;
+      ...
+    &lt;/div&gt;
+    &lt;button class="m-toggle"&gt;
+      &lt;span&gt;&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+				</div>
+				<div class="content-box margin-top-60">
+					<h4 class="text-center margin-bottom-40">Background Colors</h4>
+					<p>You can change the background color of the Header Menu by adding <mark>.dark or .black</mark> class to the <mark>.header</mark> class element.</p>
+<pre>
+<code>
+&lt;div class="header <span class="font-weight-bold">dark</span>"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="logo"&gt;
+      ..
+    &lt;/div&gt;
+    &lt;div class="header-menu-wrapper"&gt;
+      ...
+    &lt;/div&gt;
+    &lt;button class="m-toggle"&gt;
+      &lt;span&gt;&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+				</div>
+				<div class="content-box margin-top-60">
+					<h4 class="text-center margin-bottom-40">Positions</h4>
+					<p>The position of the Header Menu can be set to static(default), fixed or sticky. You can use them by adding <mark>.fixed or sticky</mark> class to the <mark>.header</mark> class element.</p>
+<pre>
+<code>
+&lt;div class="header <span class="font-weight-bold">fixed</span>"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="logo"&gt;
+      ..
+    &lt;/div&gt;
+    &lt;div class="header-menu-wrapper"&gt;
+      ...
+    &lt;/div&gt;
+    &lt;button class="m-toggle"&gt;
+      &lt;span&gt;&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+				</div>
+				<div class="content-box margin-top-60">
+					<h4 class="text-center margin-bottom-40">Header Menu Font 2</h4>
+					<p>There are 2 font style options you can use on Header Menu. Simply add <mark>.font-2</mark> class to the <mark>.header-menu</mark> class element to use the secondary font style.</p>
+<pre>
+<code>
+&lt;div class="header"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="logo"&gt;
+      ..
+    &lt;/div&gt;
+    &lt;div class="header-menu-wrapper"&gt;
+      &lt;ul class="header-menu <span class="font-weight-bold">font-2</span>"&gt;
+        ..
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;button class="m-toggle"&gt;
+      &lt;span&gt;&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+				</div>
+				<div class="content-box margin-top-60">
+					<h4 class="text-center margin-bottom-40">Dropdown Menu Backgrounds</h4>
+					<p>The background of dropdown menu is set to white by default. And you can add <mark>.dark, .black, .transparent-white or .transparent-dark</mark> class to the <mark>.header-menu</mark> class element to change them.</p>
+<pre>
+<code>
+&lt;div class="header"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="logo"&gt;
+      ..
+    &lt;/div&gt;
+    &lt;div class="header-menu-wrapper"&gt;
+      &lt;ul class="header-menu <span class="font-weight-bold">transparent-dark</span>"&gt;
+        ..
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;button class="m-toggle"&gt;
+      &lt;span&gt;&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+				</div>
+			</div>
+
+			<!-- Portfolio -->
+			<div class="tab-pane fade" id="portfolio">
+				<div class="title">
+					<h2>Portfolio</h2>
+				</div>
+				<div class="content-box">
+					<h4 class="text-center margin-bottom-40">Filter Styles</h4>
+					<p>There are 2 style options for portfolio filter. And you can use the secondary filter style by adding <mark>.style-2</mark> class to <mark>.portfolio-filter</mark> class element.</p>
+<pre>
+<code>
+&lt;div class="portfolio-filter <span class="font-weight-bold">style-2</span>"&gt;
+  &lt;ul&gt;
+    &lt;li class="active" data-filter="*"&gt;All&lt;/li&gt;
+    &lt;li data-filter=".category-a"&gt;First&lt;/li&gt;
+    &lt;li data-filter=".category-b"&gt;Second&lt;/li&gt;
+    &lt;li data-filter=".category-c"&gt;Third&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+</code>
+</pre>	
+				</div>
+				<div class="content-box margin-top-60">
+					<h4 class="text-center margin-bottom-40">Portfolio Grid</h4>
+					<p>You can use the bootstrap grid system to layout your portfolio. And spacing between each columns can be set by using <mark>.col-spacing-*</mark> classes. in order to use the grid layout for your portfolio, you need to use <mark>.portfolio-grid</mark> class with the <mark>.row</mark> class element.</p>
+					<ul class="margin-top-20">
+						<li><span class="font-weight-bold">.col-spacing-0</span> - 0px between columns</li>
+						<li><span class="font-weight-bold">.col-spacing-10</span> - 10px between columns</li>
+						<li><span class="font-weight-bold">.col-spacing-20</span> - 20px between columns</li>
+						<li><span class="font-weight-bold">.col-spacing-30</span> - 30px between columns</li>
+						<li><span class="font-weight-bold">.col-spacing-40</span> - 40px between columns</li>
+						<li><span class="font-weight-bold">.col-spacing-50</span> - 50px between columns</li>
+						<li><span class="font-weight-bold">.col-spacing-60</span> - 60px between columns</li>
+						<li><span class="font-weight-bold">.col-spacing-70</span> - 70px between columns</li>
+					</ul>
+					<p>Basic Portfolio Grid:</p>
+<pre>
+<code>
+&lt;div class="row col-spacing-20 portfolio-grid portfolio-title-overlay"&gt;
+  &lt;-- 1 --&gt;
+  &lt;div class="col-12 col-md-6 portfolio-item"&gt;
+    &lt;a href="#"&gt;
+      &lt;div class="portfolio-img"&gt;
+        &lt;img src="../assets/images/col-1.jpg" alt=""&gt;
+      &lt;/div&gt;
+      &lt;div class="portfolio-hover"&gt;
+        &lt;div class="portfolio-hover-box"&gt;
+          &lt;h3 class="font-weight-normal"&gt;Project Title&lt;/h3&gt;
+          &lt;span class="font-small uppercase"&gt;Category&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;-- 2 --&gt;
+  ...
+&lt;/div&gt;
+</code>
+</pre>
+				</div>
+				<div class="content-box margin-top-60">
+					<h4 class="text-center margin-bottom-40">Portfolio Masonry</h4>
+					<p>In order to use the masonry layout for your portfolio, you need to use <mark>.portfolio-masonry</mark> class element. And spacing between each portfolio columns can be set by using <mark>.column-1 to .column-6</mark> classes.</p>
+					<ul class="margin-top-20">
+						<li><span class="font-weight-bold">.spacing-0</span> - 0px between columns</li>
+						<li><span class="font-weight-bold">.spacing-6</span> - 6px between columns</li>
+						<li><span class="font-weight-bold">.spacing-10</span> - 10px between columns</li>
+						<li><span class="font-weight-bold">.spacing-20</span> - 20px between columns</li>
+						<li><span class="font-weight-bold">.spacing-30</span> - 30px between columns</li>
+						<li><span class="font-weight-bold">.spacing-40</span> - 40px between columns</li>
+						<li><span class="font-weight-bold">.spacing-50</span> - 50px between columns</li>
+					</ul>
+<pre>
+<code>
+&lt;div class="portfolio-masonry column-3 spacing-20 portfolio-title-overlay"&gt;
+  &lt;-- 1 --&gt;
+  &lt;div class="portfolio-item"&gt;
+    &lt;a href="#"&gt;
+      &lt;div class="portfolio-img"&gt;
+        &lt;img src="../assets/images/col-1.jpg" alt=""&gt;
+      &lt;/div&gt;
+      &lt;div class="portfolio-hover"&gt;
+        &lt;div class="portfolio-hover-box"&gt;
+          &lt;h3 class="font-weight-normal"&gt;Project Title&lt;/h3&gt;
+          &lt;span class="font-small uppercase"&gt;Category&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;-- 2 --&gt;
+  ...
+&lt;/div&gt;
+</code>
+</pre>
+				</div>
+				<div class="content-box margin-top-60">
+					<h4 class="text-center margin-bottom-40">Portfolio Metro</h4>
+					<p>In order to use the metro layout for your portfolio, you need to use <mark>.portfolio-metro</mark> class element. And spacing between each columns can be set by using <mark>.column-1 to .column-6</mark> classes.</p>
+					<ul class="margin-top-20">
+						<li><span class="font-weight-bold">.spacing-0</span> - 0px between columns</li>
+						<li><span class="font-weight-bold">.spacing-6</span> - 6px between columns</li>
+						<li><span class="font-weight-bold">.spacing-10</span> - 10px between columns</li>
+						<li><span class="font-weight-bold">.spacing-20</span> - 20px between columns</li>
+						<li><span class="font-weight-bold">.spacing-30</span> - 30px between columns</li>
+						<li><span class="font-weight-bold">.spacing-40</span> - 40px between columns</li>
+						<li><span class="font-weight-bold">.spacing-50</span> - 50px between columns</li>
+					</ul>
+<pre>
+<code>
+&lt;div class="portfolio-metro column-3 spacing-20 portfolio-title-overlay"&gt;
+  &lt;-- 1 --&gt;
+  &lt;div class="portfolio-item"&gt;
+    &lt;a href="#"&gt;
+      &lt;div class="portfolio-img"&gt;
+        &lt;img src="../assets/images/col-1.jpg" alt=""&gt;
+      &lt;/div&gt;
+      &lt;div class="portfolio-hover"&gt;
+        &lt;div class="portfolio-hover-box"&gt;
+          &lt;h3 class="font-weight-normal"&gt;Project Title&lt;/h3&gt;
+          &lt;span class="font-small uppercase"&gt;Category&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;-- 2 --&gt;
+  ...
+&lt;/div&gt;
+</code>
+</pre>
+					<div class="margin-top-40">
+						<p>You can use <mark>.portfolio-item-lg</mark> class on <mark>.portfolio-item</mark> class element to make the box bigger.</p>
+<pre>
+<code>
+&lt;div class="portfolio-metro column-3 spacing-20 portfolio-title-overlay"&gt;
+  &lt;-- 1 --&gt;
+  &lt;div class="portfolio-item <span class="font-weight-bold">portfolio-item-lg</span>"&gt;
+    &lt;a href="#"&gt;
+      ..
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;-- 2 --&gt;
+  ...
+&lt;/div&gt;
+</code>
+</pre>
+					</div>
+				</div>
+				<div class="content-box margin-top-60">
+					<h4 class="text-center margin-bottom-40">Hover Types</h4>
+					<p>You can use 3 different type of hover styles for your portfolio.</p>
+					<ul class="margin-top-20">
+						<li><span class="font-weight-bold">portfolio-title-overlay</span> - Shows portfolio title on hover</li>
+						<li><span class="font-weight-bold">portfolio-icon-overlay</span> - Shows icon links on hover</li>
+						<li><span class="font-weight-bold">portfolio-title-outside</span> - Shows portfolio title below the portfolio image box</li>
+					</ul>
+					<p><span class="font-weight-bold">1.</span> Basic <mark>portfolio-title-overlay</mark> layout:</p>
+<pre>
+<code>
+&lt;div class="portfolio-masonry column-3 spacing-20 <span class="font-weight-bold">portfolio-title-overlay</span>"&gt;
+  &lt;-- 1 --&gt;
+  &lt;div class="portfolio-item"&gt;
+    &lt;a href="#"&gt;
+      &lt;div class="portfolio-img"&gt;
+        &lt;img src="../assets/images/col-1.jpg" alt=""&gt;
+      &lt;/div&gt;
+      &lt;div class="portfolio-hover"&gt;
+        &lt;div class="portfolio-hover-box"&gt;
+          &lt;h3 class="font-weight-normal"&gt;Project Title&lt;/h3&gt;
+          &lt;span class="font-small uppercase"&gt;Category&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;-- 2 --&gt;
+  ...
+&lt;/div&gt;
+</code>
+</pre>
+					<div class="margin-top-40">
+						<p><span class="font-weight-bold">2.</span> Basic <mark>portfolio-icon-overlay</mark> layout:</p>
+<pre>
+<code>
+&lt;div class="portfolio-masonry column-3 spacing-20 <span class="font-weight-bold">portfolio-icon-overlay</span>"&gt;
+  &lt;-- 1 --&gt;
+  &lt;div class="portfolio-item"&gt;
+    &lt;div class="portfolio-img"&gt;
+      &lt;img src="../assets/images/col-1.jpg" alt=""&gt;
+      &lt;div class="portfolio-hover"&gt;
+        &lt;div class="portfolio-hover-box"&gt;
+          &lt;a href="#"&gt;&lt;i class="fas fa-expand-arrows-alt"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;a href="#"&gt;&lt;i class="fas fa-link"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;-- 2 --&gt;
+  ...
+&lt;/div&gt;
+</code>
+</pre>
+					</div>
+					<div class="margin-top-40">
+						<p><span class="font-weight-bold">3.</span> Basic <mark>portfolio-title-outside</mark> layout:</p>
+<pre>
+<code>
+&lt;div class="portfolio-masonry column-3 spacing-20 <span class="font-weight-bold">portfolio-title-outside</span>"&gt;
+  &lt;-- 1 --&gt;
+  &lt;div class="portfolio-item"&gt;
+    &lt;div class="portfolio-img"&gt;
+      &lt;a href="#"&gt;
+        &lt;img src="../assets/images/col-1.jpg" alt=""&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="portfolio-title"&gt;
+      &lt;h5 class="font-weight-normal"&gt;Project Title&lt;/h5&gt;
+      &lt;span class="font-small uppercase"&gt;Category&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;-- 2 --&gt;
+  ...
+&lt;/div&gt;
+</code>
+</pre>
+					</div>
+				</div>
+				<div class="content-box margin-top-60">
+					<h4 class="text-center margin-bottom-40">Hover Styles</h4>
+					<p>Each of 3 hover types have multiple hover styles to choose from. You can change them by using <mark>.hover-style-*</mark> classes.</p>
+					<ul class="margin-top-20">
+						<li><span class="font-weight-bold">portfolio-title-overlay</span> - has 4</li>
+						<li><span class="font-weight-bold">portfolio-icon-overlay</span> - has 2</li>
+						<li><span class="font-weight-bold">portfolio-title-outside</span> - has 3</li>
+					</ul>
+					<p>Example on <mark>.portfolio-title-overlay</mark>:</p>
+<pre>
+<code>
+&lt;div class="portfolio-masonry column-3 spacing-20 portfolio-title-overlay <span class="font-weight-bold">hover-style-2</span>"&gt;
+  &lt;-- 1 --&gt;
+  &lt;div class="portfolio-item"&gt;
+    &lt;a href="#"&gt;
+      &lt;div class="portfolio-img"&gt;
+        &lt;img src="../assets/images/col-1.jpg" alt=""&gt;
+      &lt;/div&gt;
+      &lt;div class="portfolio-hover"&gt;
+        &lt;div class="portfolio-hover-box"&gt;
+          &lt;h3 class="font-weight-normal"&gt;Project Title&lt;/h3&gt;
+          &lt;span class="font-small uppercase"&gt;Category&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;-- 2 --&gt;
+  ...
+&lt;/div&gt;
+</code>
+</pre>
+				</div>
+			</div>
+
+			<!-- Owl Carousel -->
+			<div class="tab-pane fade" id="owl-carousel">
+				<div class="title">
+					<h2>Owl Carousel</h2>
+				</div>
+				<div class="content-box">
+					<p>Arty uses <a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">Owl Carousel 2</a> jQuery plugin to handle all the sliders of the template. It's fully responsive and it has large amount of options. You can change the default options via html <mark>data-owl-*</mark> attribute.</p>
+					<br>
+					<div class="margin-bottom-30">
+						<p>You should create a div with <mark>.owl-carousel</mark> class and the first divs inside of this class will be the boxes of the slider:</p>
+<pre>
+<code>
+&lt;div class="owl-carousel"&gt;
+  &lt;!-- slider box 1 --&gt;
+  &lt;div&gt;
+  ..
+  &lt;/div&gt;
+  &lt;!-- slider box 2 --&gt;
+  &lt;div&gt;
+  ..
+  &lt;/div&gt;
+  ...
+&lt;/div&gt;
+</code>
+</pre>
+					</div>
+					<div class="margin-bottom-30">
+						<p>The below example shows how to create slider with 2 columns(on all screen) with navigation.</p>
+<pre>
+<code>
+&lt;div class="owl-carousel" data-owl-items="2" data-owl-nav="true" data-owl-dots="false"&gt;
+  &lt;!-- slider box 1 --&gt;
+  &lt;div&gt;
+  ..
+  &lt;/div&gt;
+  &lt;!-- slider box 2 --&gt;
+  &lt;div&gt;
+  ..
+  &lt;/div&gt;
+  ...
+&lt;/div&gt;
+</code>
+</pre>
+					</div>
+					<div>
+						<p>The below example shows how to create responsive slider with navigation and dots. <mark>data-owl-xs, data-owl-sm, data-owl-md, data-owl-lg and data-owl-xl</mark> are for screen size and the value number is how many columns to show on that screen size.</p>
+<pre>
+<code>
+&lt;div class="owl-carousel" data-owl-nav="true" data-owl-xs="1" data-owl-sm="2" data-owl-md="3" data-owl-lg="4" data-owl-xl="4"&gt;
+  &lt;!-- slider box 1 --&gt;
+  &lt;div&gt;
+  ..
+  &lt;/div&gt;
+  &lt;!-- slider box 2 --&gt;
+  &lt;div&gt;
+  ..
+  &lt;/div&gt;
+  ...
+&lt;/div&gt;
+</code>
+</pre>
+						<ul>
+							<li><span class="font-weight-bold">data-owl-xs</span> - For screen resolution above 0px+</li>
+							<li><span class="font-weight-bold">data-owl-sm</span> - For screen resolution above 576px+</li>
+							<li><span class="font-weight-bold">data-owl-md</span> - For screen resolution above 768px+</li>
+							<li><span class="font-weight-bold">data-owl-lg</span> - For screen resolution above 992px+</li>
+							<li><span class="font-weight-bold">data-owl-xl</span> - For screen resolution above 1200px+</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="content-box margin-top-60">
+					<h4 class="text-center margin-bottom-40">All data-attribute options</h4>
+					<ul>
+						<li><span class="font-weight-bold">data-owl-items</span> - The number of items you want to see on the screen.</li>
+						<li><span class="font-weight-bold">data-owl-margin</span> - margin-right(px) on item.</li>
+						<li><span class="font-weight-bold">data-owl-loop</span> - Infinity loop. Duplicate last and first items to get loop illusion.</li>
+						<li><span class="font-weight-bold">data-owl-center</span> - Center item. Works well with even an odd number of items.</li>
+						<li><span class="font-weight-bold">data-owl-nav</span> - Show next/prev buttons.</li>
+						<li><span class="font-weight-bold">data-owl-dots</span> - Show dots navigation.</li>
+						<li><span class="font-weight-bold">data-owl-rewind</span> - Go backwards when the boundary has reached.</li>
+						<li><span class="font-weight-bold">data-owl-autoplay</span> - Autoplay.</li>
+					</ul>
+					<p class="text-center margin-top-40"><a href="http://arty.flatheme.net/elements/sliders.html" target="_blank">Click here</a> to see the live demos of Owl Carousel.</p>
+				</div>
+			</div>
+
+			<!-- Smooth Scroll buttons -->
+			<div class="tab-pane fade" id="smoothscroll">
+				<div class="title">
+					<h2>Smooth Scroll Buttons</h2>
+				</div>
+				<div class="content-box">
+					<p>You can use the buttons to scroll to sections smoothly. Add <mark>smoothscroll</mark> class to the button you want to use for smooth scrolling.</p>
+					<br>
+					<p>The below example will scroll down to section with #about id:</p>
+<pre>
+<code>
+&lt;div&gt;
+  &lt;a class="<span class="font-weight-bold">smoothscroll</span>" href="#about"&gt;Button&lt;/a&gt;
+&lt;/div&gt;
+..
+&lt;div id="about"&gt;
+	...
+&lt;/div&gt;
+</code>
+</pre>	
+				</div>
+				<div class="content-box margin-top-60">
+					<h4 class="text-center margin-bottom-40">Scroll to Top</h4>
+					<p>Scroll to Top button would appear at bottom right of the screen when you scroll down the page. And circle button styles can be applied to this button. This button should be wrapped inside <mark>.scrolltotop</mark> element.</p>
+					<br>
+					<p>Basic Scroll to Top button:</p>
+<pre>
+<code>
+&lt;div class="<span class="font-weight-bold">scrolltotop</span>"&gt;
+  &lt;a class="button-circle button-circle-md button-circle-dark" href="#"&gt;
+    &lt;i class="fa fa-angle-up"&gt;&lt;/i&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+</code>
+</pre>
+				</div>
+			</div>
+
+			<!-- Google Maps -->
+			<div class="tab-pane fade" id="maps">
+				<div class="title">
+					<h2>Google Maps</h2>
+				</div>
+				<div class="content-box">
+					<p>Arty uses <a href="https://hpneo.github.io/gmaps/" target="_blank">gmaps</a> plugin to show Google Maps. By default, the maps width is set to 100% and height is set to 0 and you can set the height of the map using classes.<br>You can use multiple maps on one page. And every single map should have different id's <span class="font-italic">(#map1, #map2 etc.)</span>.</p>
+					<ul class="margin-top-10">
+						<li><span class="font-weight-bold">gmap-xs</span> - sets height to 300px</li>
+						<li><span class="font-weight-bold">gmap-sm</span> - sets height to 350px</li>
+						<li><span class="font-weight-bold">gmap-md</span> - sets height to 400px</li>
+						<li><span class="font-weight-bold">gmap-lg</span> - sets height to 450px</li>
+						<li><span class="font-weight-bold">gmap-xl</span> - sets height to 500px</li>
+					</ul>
+					<p class="margin-top-30">Basic Map:</p>
+<pre style="margin-bottom: 8px;">
+<code>
+&lt;div id="map1" class="gmap gmap-md" data-latitude="51.513569" data-longitude="-0.123443"&gt;&lt;/div&gt;
+</code>
+</pre>
+					<p><a href="https://www.findlatitudeandlongitude.com" target="_blank">Click here</a> to find your Latitude and Longitude.</p>
+					<p class="margin-top-30">In order to use Google Maps, you need to get Google API Key first. <a href="https://developers.google.com/maps/documentation/javascript/get-api-key" target="_blank">Click here</a> to get your API Key.</p>
+					<p>Then place your API Key in <mark>'YOUR_API_KEY'</mark> in your HTML:</p>
+<pre class="margin-0">
+<code>
+&lt;script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"&gt;&lt;/script&gt;
+</code>
+</pre>
+					<p class="text-center margin-top-40"><a href="http://arty.flatheme.net/elements/maps.html" target="_blank">Click here</a> to see the live examples of Google Maps.</p>
+				</div>
+			</div>
+
+			<!-- Contact Form -->
+			<div class="tab-pane fade" id="contactform">
+				<div class="title">
+					<h2>Contact Form</h2>
+				</div>
+				<div class="content-box">
+					<p>Basic Contact form:</p>
+<pre>
+<code>
+&lt;div class="contact-form"&gt;
+  &lt;form method="post" id="contactform"&gt;
+    &lt;input type="text" id="name" name="name" placeholder="Name" required&gt;
+    &lt;input type="email" id="email" name="email" placeholder="E-Mail" required&gt;
+    &lt;input type="text" id="subject" name="subject" placeholder="Subject" required&gt;
+    &lt;textarea name="message" id="message" placeholder="Message"&gt;&lt;/textarea&gt;
+    &lt;button class="button button-lg button-dark" type="submit"&gt;Send Message&lt;/button&gt;
+  &lt;/form&gt;
+
+  &lt;div class="submit-result"&gt;
+    &lt;span id="success"&gt;Thank you! Your Message has been sent.&lt;/span&gt;
+    &lt;span id="error"&gt;Something went wrong, Please try again!&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+					<p>This template has ready to use AJAX/PHP contact form built in it. In order to recieve emails directly to your email address just simply replace <mark>your-email@example.com</mark> with your email address in <mark>assets/php/contact-form.php</mark> file.</p>
+				</div>
+			</div>
+
+			<!-- Elements -->
+			<div class="tab-pane fade" id="elements">
+				<div class="title">
+					<h2>Elements</h2>
+				</div>
+				<div class="content-box">
+					<p class="text-center"><a href="http://arty.flatheme.net/elements/elements-list.html" target="_blank">Click here</a> to see the full list of the web elements.</p>
+				</div>
+			</div>
+
+			<!-- Helper Classes -->
+			<div class="tab-pane fade" id="helper-classes">
+				<div class="title">
+					<h2>Helper Classes</h2>
+				</div>
+				<div class="content-box">
+					<h4 class="margin-bottom-40 text-center">Margin</h4>
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<tr>
+								<th>HTML Class Names</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>margin-0</td>
+								<td>Equals to 'margin: 0;'</td>
+							</tr>
+							<tr>
+								<td>margin-top-10</td>
+								<td>Equals to 'margin-top: 10px;'</td>
+							</tr>
+							<tr>
+								<td>margin-top-20</td>
+								<td>Equals to 'margin-top: 20px;'</td>
+							</tr>
+							<tr>
+								<td>margin-top-30</td>
+								<td>Equals to 'margin-top: 30px;'</td>
+							</tr>
+							<tr>
+								<td>margin-top-40</td>
+								<td>Equals to 'margin-top: 40px;'</td>
+							</tr>
+							<tr>
+								<td>margin-top-50</td>
+								<td>Equals to 'margin-top: 50px;'</td>
+							</tr>
+							<tr>
+								<td>margin-top-60</td>
+								<td>Equals to 'margin-top: 60px;'</td>
+							</tr>
+							<tr>
+								<td>margin-top-70</td>
+								<td>Equals to 'margin-top: 70px;'</td>
+							</tr>
+							<tr>
+								<td>margin-right-10</td>
+								<td>Equals to 'margin-right: 10px;'</td>
+							</tr>
+							<tr>
+								<td>margin-right-20</td>
+								<td>Equals to 'margin-right: 20px;'</td>
+							</tr>
+							<tr>
+								<td>margin-right-30</td>
+								<td>Equals to 'margin-right: 30px;'</td>
+							</tr>
+							<tr>
+								<td>margin-right-40</td>
+								<td>Equals to 'margin-right: 40px;'</td>
+							</tr>
+							<tr>
+								<td>margin-right-50</td>
+								<td>Equals to 'margin-right: 50px;'</td>
+							</tr>
+							<tr>
+								<td>margin-right-60</td>
+								<td>Equals to 'margin-right: 60px;'</td>
+							</tr>
+							<tr>
+								<td>margin-right-70</td>
+								<td>Equals to 'margin-right: 70px;'</td>
+							</tr>
+							<tr>
+								<td>margin-left-10</td>
+								<td>Equals to 'margin-left: 10px;'</td>
+							</tr>
+							<tr>
+								<td>margin-left-20</td>
+								<td>Equals to 'margin-left: 20px;'</td>
+							</tr>
+							<tr>
+								<td>margin-left-30</td>
+								<td>Equals to 'margin-left: 30px;'</td>
+							</tr>
+							<tr>
+								<td>margin-left-40</td>
+								<td>Equals to 'margin-left: 40px;'</td>
+							</tr>
+							<tr>
+								<td>margin-left-50</td>
+								<td>Equals to 'margin-left: 50px;'</td>
+							</tr>
+							<tr>
+								<td>margin-left-60</td>
+								<td>Equals to 'margin-left: 60px;'</td>
+							</tr>
+							<tr>
+								<td>margin-left-70</td>
+								<td>Equals to 'margin-left: 70px;'</td>
+							</tr>
+							<tr>
+								<td>margin-bottom-10</td>
+								<td>Equals to 'margin-bottom: 10px;'</td>
+							</tr>
+							<tr>
+								<td>margin-bottom-20</td>
+								<td>Equals to 'margin-bottom: 20px;'</td>
+							</tr>
+							<tr>
+								<td>margin-bottom-30</td>
+								<td>Equals to 'margin-bottom: 30px;'</td>
+							</tr>
+							<tr>
+								<td>margin-bottom-40</td>
+								<td>Equals to 'margin-bottom: 40px;'</td>
+							</tr>
+							<tr>
+								<td>margin-bottom-50</td>
+								<td>Equals to 'margin-bottom: 50px;'</td>
+							</tr>
+							<tr>
+								<td>margin-bottom-60</td>
+								<td>Equals to 'margin-bottom: 60px;'</td>
+							</tr>
+							<tr>
+								<td>margin-bottom-70</td>
+								<td>Equals to 'margin-bottom: 70px;'</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="content-box margin-top-60">
+					<h4 class="margin-bottom-40 text-center">Padding</h4>
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<tr>
+								<th>HTML Class Names</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>padding-0</td>
+								<td>Equals to 'padding: 0;'</td>
+							</tr>
+							<tr>
+								<td>padding-10</td>
+								<td>Equals to 'padding: 10px;'</td>
+							</tr>
+							<tr>
+								<td>padding-20</td>
+								<td>Equals to 'padding: 20px;'</td>
+							</tr>
+							<tr>
+								<td>padding-30</td>
+								<td>Equals to 'padding: 30px;'</td>
+							</tr>
+							<tr>
+								<td>padding-40</td>
+								<td>Equals to 'padding: 40px;'</td>
+							</tr>
+							<tr>
+								<td>padding-50</td>
+								<td>Equals to 'padding: 50px;'</td>
+							</tr>
+							<tr>
+								<td>padding-60</td>
+								<td>Equals to 'padding: 60px;'</td>
+							</tr>
+							<tr>
+								<td>padding-70</td>
+								<td>Equals to 'padding: 70px;'</td>
+							</tr>
+
+							<tr>
+								<td>padding-x-10</td>
+								<td>Equals to 'padding-left: 10px; padding-right: 10px;'</td>
+							</tr>
+							<tr>
+								<td>padding-x-20</td>
+								<td>Equals to 'padding-left: 20px; padding-right: 20px;'</td>
+							</tr>
+							<tr>
+								<td>padding-x-30</td>
+								<td>Equals to 'padding-left: 30px; padding-right: 30px;'</td>
+							</tr>
+							<tr>
+								<td>padding-x-40</td>
+								<td>Equals to 'padding-left: 40px; padding-right: 40px;'</td>
+							</tr>
+							<tr>
+								<td>padding-x-50</td>
+								<td>Equals to 'padding-left: 50px; padding-right: 50px;'</td>
+							</tr>
+							<tr>
+								<td>padding-x-60</td>
+								<td>Equals to 'padding-left: 60px; padding-right: 60px;'</td>
+							</tr>
+							<tr>
+								<td>padding-x-70</td>
+								<td>Equals to 'padding-left: 70px; padding-right: 70px;'</td>
+							</tr>
+
+							<tr>
+								<td>padding-y-10</td>
+								<td>Equals to 'padding-top: 10px; padding-bottom: 10px;'</td>
+							</tr>
+							<tr>
+								<td>padding-y-20</td>
+								<td>Equals to 'padding-top: 20px; padding-bottom: 20px;'</td>
+							</tr>
+							<tr>
+								<td>padding-y-30</td>
+								<td>Equals to 'padding-top: 30px; padding-bottom: 30px;'</td>
+							</tr>
+							<tr>
+								<td>padding-y-40</td>
+								<td>Equals to 'padding-top: 40px; padding-bottom: 40px;'</td>
+							</tr>
+							<tr>
+								<td>padding-y-50</td>
+								<td>Equals to 'padding-top: 50px; padding-bottom: 50px;'</td>
+							</tr>
+							<tr>
+								<td>padding-y-60</td>
+								<td>Equals to 'padding-top: 60px; padding-bottom: 60px;'</td>
+							</tr>
+							<tr>
+								<td>padding-y-70</td>
+								<td>Equals to 'padding-top: 70px; padding-bottom: 70px;'</td>
+							</tr>
+
+							<tr>
+								<td>padding-0</td>
+								<td>Equals to 'padding: 0;'</td>
+							</tr>
+							<tr>
+								<td>padding-top-0</td>
+								<td>Equals to 'padding-top: 0;'</td>
+							</tr>
+							<tr>
+								<td>padding-right-0</td>
+								<td>Equals to 'padding-right: 0;'</td>
+							</tr>
+							<tr>
+								<td>padding-bottom-0</td>
+								<td>Equals to 'padding-bottom: 0;'</td>
+							</tr>
+							<tr>
+								<td>padding-left-0</td>
+								<td>Equals to 'padding-left: 0;'</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="content-box margin-top-60">
+					<h4 class="margin-bottom-40 text-center">Border</h4>
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<tr>
+								<th>HTML Class Names</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>border</td>
+								<td>Equals to 'border: 1px solid;'</td>
+							</tr>
+							<tr>
+								<td>border-x</td>
+								<td>Equals to 'border-right-width: 1px; border-left-width: 1px;'</td>
+							</tr>
+							<tr>
+								<td>border-y</td>
+								<td>Equals to 'border-top-width: 1px; border-bottom-width: 1px;'</td>
+							</tr>
+							<tr>
+								<td>border-top</td>
+								<td>Equals to 'border-top-width: 1px;'</td>
+							</tr>
+							<tr>
+								<td>border-right</td>
+								<td>Equals to 'border-right-width: 1px;'</td>
+							</tr>
+							<tr>
+								<td>border-bottom</td>
+								<td>Equals to 'border-bottom-width: 1px;'</td>
+							</tr>
+							<tr>
+								<td>border-left</td>
+								<td>Equals to 'border-left-width: 1px;'</td>
+							</tr>
+							<tr>
+								<td>border-style-dotted</td>
+								<td>Equals to 'border-style: dotted;'</td>
+							</tr>
+							<tr>
+								<td>border-style-dashed</td>
+								<td>Equals to 'border-style: dashed;'</td>
+							</tr>
+							<tr>
+								<td>border-0</td>
+								<td>Equals to 'border: 0;'</td>
+							</tr>
+							<tr>
+								<td>border-top-0</td>
+								<td>Equals to 'border-top: 0;'</td>
+							</tr>
+							<tr>
+								<td>border-right-0</td>
+								<td>Equals to 'border-right: 0;'</td>
+							</tr>
+							<tr>
+								<td>border-bottom-0</td>
+								<td>Equals to 'border-bottom: 0;'</td>
+							</tr>
+							<tr>
+								<td>border-left-0</td>
+								<td>Equals to 'border-left: 0;'</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="content-box margin-top-60">
+					<h4 class="margin-bottom-40 text-center">Text Alignment</h4>
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<tr>
+								<th>HTML Class Names</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>text-left</td>
+								<td>Equals to 'text-align: left;'</td>
+							</tr>
+							<tr>
+								<td>text-center</td>
+								<td>Equals to 'text-align: center;'</td>
+							</tr>
+							<tr>
+								<td>text-right</td>
+								<td>Equals to 'text-align: right;'</td>
+							</tr>
+							<tr>
+								<td>text-justify</td>
+								<td>Equals to 'text-align: justify;'</td>
+							</tr>
+						</table>
+					</div>
+					<p><a href="https://getbootstrap.com/docs/4.4/utilities/text/#text-alignment" target="_blank">Click here</a> to get more information about bootstrap text alignment.</p>
+				</div>
+
+				<div class="content-box margin-top-60">
+					<h4 class="margin-bottom-40 text-center">Typography</h4>
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<tr>
+								<th>HTML Class Names</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>font-family-primary</td>
+								<td>Equals to 'font-family: 'Open Sans', sans-serif'</td>
+							</tr>
+							<tr>
+								<td>font-family-secondary</td>
+								<td>Equals to 'font-family: 'Poppins', serif'</td>
+							</tr>
+							<tr>
+								<td>font-small</td>
+								<td>Equals to 'font-size: 0.875em; /* 14px */'</td>
+							</tr>
+							<tr>
+								<td>font-large</td>
+								<td>Equals to 'font-size: 1.125em; /* 18px */'</td>
+							</tr>
+							<tr>
+								<td>font-weight-thin</td>
+								<td>Equals to 'font-weight: 100'</td>
+							</tr>
+							<tr>
+								<td>font-weight-extra-light</td>
+								<td>Equals to 'font-weight: 200'</td>
+							</tr>
+							<tr>
+								<td>font-weight-light</td>
+								<td>Equals to 'font-weight: 300'</td>
+							</tr>
+							<tr>
+								<td>font-weight-regular</td>
+								<td>Equals to 'font-weight: 400'</td>
+							</tr>
+							<tr>
+								<td>font-weight-medium</td>
+								<td>Equals to 'font-weight: 500'</td>
+							</tr>
+							<tr>
+								<td>font-weight-semi-bold</td>
+								<td>Equals to 'font-weight: 600'</td>
+							</tr>
+							<tr>
+								<td>font-weight-bold</td>
+								<td>Equals to 'font-weight: 700'</td>
+							</tr>
+							<tr>
+								<td>font-weight-extra-bold</td>
+								<td>Equals to 'font-weight: 800'</td>
+							</tr>
+							<tr>
+								<td>font-weight-black</td>
+								<td>Equals to 'font-weight: 900'</td>
+							</tr>
+							<tr>
+								<td>letter-spacing-1</td>
+								<td>Equals to 'letter-spacing: 1px'</td>
+							</tr>
+							<tr>
+								<td>letter-spacing-2</td>
+								<td>Equals to 'letter-spacing: 2px'</td>
+							</tr>
+							<tr>
+								<td>letter-spacing-3</td>
+								<td>Equals to 'letter-spacing: 3px'</td>
+							</tr>
+							<tr>
+								<td>letter-spacing-4</td>
+								<td>Equals to 'letter-spacing: 4px'</td>
+							</tr>
+							<tr>
+								<td>letter-spacing-5</td>
+								<td>Equals to 'letter-spacing: 5px'</td>
+							</tr>
+							<tr>
+								<td>line-height-100</td>
+								<td>Equals to 'line-height: 100%'</td>
+							</tr>
+							<tr>
+								<td>line-height-110</td>
+								<td>Equals to 'line-height: 110%'</td>
+							</tr>
+							<tr>
+								<td>line-height-120</td>
+								<td>Equals to 'line-height: 120%'</td>
+							</tr>
+							<tr>
+								<td>line-height-130</td>
+								<td>Equals to 'line-height: 130%'</td>
+							</tr>
+							<tr>
+								<td>line-height-140</td>
+								<td>Equals to 'line-height: 140%'</td>
+							</tr>
+							<tr>
+								<td>line-height-150</td>
+								<td>Equals to 'line-height: 150%'</td>
+							</tr>
+							<tr>
+								<td>line-height-160</td>
+								<td>Equals to 'line-height: 160%'</td>
+							</tr>
+							<tr>
+								<td>line-height-170</td>
+								<td>Equals to 'line-height: 170%'</td>
+							</tr>
+							<tr>
+								<td>line-height-180</td>
+								<td>Equals to 'line-height: 180%'</td>
+							</tr>
+							<tr>
+								<td>line-height-190</td>
+								<td>Equals to 'line-height: 190%'</td>
+							</tr>
+							<tr>
+								<td>line-height-200</td>
+								<td>Equals to 'line-height: 200%'</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="content-box margin-top-60">
+					<h4 class="margin-bottom-40 text-center">Sizing</h4>
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<tr>
+								<th>HTML Class Names</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>w-25</td>
+								<td>Equals to 'width: 25%'</td>
+							</tr>
+							<tr>
+								<td>w-50</td>
+								<td>Equals to 'width: 50%'</td>
+							</tr>
+							<tr>
+								<td>w-75</td>
+								<td>Equals to 'width: 75%'</td>
+							</tr>
+							<tr>
+								<td>w-100</td>
+								<td>Equals to 'width: 100%'</td>
+							</tr>
+							<tr>
+								<td>h-25</td>
+								<td>Equals to 'height: 25%'</td>
+							</tr>
+							<tr>
+								<td>h-50</td>
+								<td>Equals to 'height: 50%'</td>
+							</tr>
+							<tr>
+								<td>h-75</td>
+								<td>Equals to 'height: 75%'</td>
+							</tr>
+							<tr>
+								<td>h-100</td>
+								<td>Equals to 'height: 100%'</td>
+							</tr>
+						</table>
+					</div>
+					<p class="margin-top-10"><a href="https://getbootstrap.com/docs/4.4/utilities/sizing/" target="_blank">Click here</a> to get more information about bootstrap sizing.</p>
+				</div>
+			</div>
+
+			<!-- Credits -->
+			<div class="tab-pane fade" id="credits">
+				<div class="title">
+					<h2>Credits</h2>
+				</div>
+				<div class="content-box">
+					<p class="text-center margin-bottom-20">Huge thanks to all this great plugins and resources that helped to make the template great and powerful.</p>
+					<div class="table-responsive">
+						<table class="table table-bordered margin-0">
+							<tr>
+								<th>Term</th>
+								<th>Link</th>
+							</tr>
+							<tr>
+								<td>Appear Plugin</td>
+								<td><a href="https://github.com/morr/jquery.appear" target="_blank">https://github.com/morr/jquery.appear</a></td>
+							</tr>
+							<tr>
+								<td>Easing Plugin</td>
+								<td><a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">http://gsgd.co.uk/sandbox/jquery/easing</a></td>
+							</tr>
+							<tr>
+								<td>Bootstrap</td>
+								<td><a href="http://getbootstrap.com" target="_blank">http://getbootstrap.com</a></td>
+							</tr>
+							<tr>
+								<td>FontAwesome</td>
+								<td><a href="http://fontawesome.io" target="_blank">http://fontawesome.io</a></td>
+							</tr>
+							<tr>
+								<td>ImagesLoaded</td>
+								<td><a href="https://imagesloaded.desandro.com" target="_blank">https://imagesloaded.desandro.com</a></td>
+							</tr>
+							<tr>
+								<td>Isotope</td>
+								<td><a href="https://isotope.metafizzy.co" target="_blank">https://isotope.metafizzy.co</a></td>
+							</tr>
+							<tr>
+								<td>GMaps</td>
+								<td><a href="https://hpneo.github.io/gmaps" target="_blank">https://hpneo.github.io/gmaps</a></td>
+							</tr>
+							<tr>
+								<td>Magnific Popup</td>
+								<td><a href="http://dimsemenov.com/plugins/magnific-popup/" target="_blank">http://dimsemenov.com/plugins/magnific-popup</a></td>
+							</tr>
+							<tr>
+								<td>MixItUp 3</td>
+								<td><a href="https://github.com/patrickkunka/mixitup/" target="_blank">https://github.com/patrickkunka/mixitup/</a></td>
+							</tr>
+							<tr>
+								<td>Owl Carousel</td>
+								<td><a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">https://owlcarousel2.github.io/OwlCarousel2</a></td>
+							</tr>
+							<tr>
+								<td>Packery</td>
+								<td><a href="https://packery.metafizzy.co" target="_blank">https://packery.metafizzy.co</a></td>
+							</tr>
+							<tr>
+								<td>Justified Gallery</td>
+								<td><a href="https://miromannino.github.io/Justified-Gallery/" target="_blank">https://miromannino.github.io/Justified-Gallery/</a></td>
+							</tr>
+							<tr>
+								<td>Parallaxie</td>
+								<td><a href="https://github.com/theultrasoft/Parallaxie" target="_blank">https://github.com/theultrasoft/Parallaxie</a></td>
+							</tr>
+							<tr>
+								<td>Sal(Scroll Animation Library)</td>
+								<td><a href="https://github.com/mciastek/sal" target="_blank">https://github.com/mciastek/sal</a></td>
+							</tr>
+							<tr>
+								<td>Simple Line Icons</td>
+								<td><a href="https://github.com/thesabbir/simple-line-icons" target="_blank">https://github.com/thesabbir/simple-line-icons</a></td>
+							</tr>
+							<tr>
+								<td>The Final Countdown</td>
+								<td><a href="http://hilios.github.io/jQuery.countdown/" target="_blank">http://hilios.github.io/jQuery.countdown</a></td>
+							</tr>
+							<tr>
+								<td>Themify Icons</td>
+								<td><a href="https://themify.me/themify-icons" target="_blank">https://themify.me/themify-icons</a></td>
+							</tr>
+							<tr>
+								<td>Retina</td>
+								<td><a href="http://imulus.github.io/retinajs/" target="_blank">http://imulus.github.io/retinajs</a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- ***** JAVASCRIPTS ***** -->
+		<!-- Libraries -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/bootstrap/popper.min.js"></script>
+		<!-- Plugins -->
+		<script src="assets/bootstrap/bootstrap.min.js"></script>
+		<script src="assets/js/easing.min.js"></script>
+		<script src="assets/js/retina.min.js"></script>
+		<!-- Scripts -->
+		<script src="assets/js/functions.js"></script>
+	</body>
+</html>

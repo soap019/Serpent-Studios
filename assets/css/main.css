@@ -885,7 +885,7 @@ ul.list-inline-dash li:last-child:after, ul.list-inline-slash li:last-child:afte
 }
 
 body {
-  color: #767A7D;
+  color: #0b140b;
   font-family: "futura-pt", sans-serif;
   font-weight: 400;
   letter-spacing: 0;
@@ -3165,12 +3165,12 @@ div[class^="fancy-box"] img {
 
 .fancy-box-3:before {
   opacity: 1;
-  background-image: linear-gradient(to top, rgba(20, 22, 24, 0.5), transparent);
+  background-image: linear-gradient(to top, rgba(20, 22, 24, 0.2), transparent);
 }
 
 .fancy-box-3:after {
   opacity: 0;
-  background-image: linear-gradient(to top, rgba(20, 22, 24, 0.6), rgba(20, 22, 24, 0.1));
+  background-image: linear-gradient(to top, rgba(195, 97, 62, 0.6), rgba(195, 97, 62, 0.6));
 }
 
 .fancy-box-3 .content,

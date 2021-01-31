@@ -10169,3 +10169,11 @@ div[class^='bg-dark'] div[class^='bg-white'] .stroke-text, div[class^='bg-dark']
   color: #0b140b;
   -webkit-text-stroke-color: #0b140b;
 }
+
+.child {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}

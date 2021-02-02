@@ -3170,7 +3170,7 @@ div[class^="fancy-box"] img {
 
 .fancy-box-3:after {
   opacity: 0;
-  background-image: linear-gradient(to top, rgba(195, 97, 62, 0.6), rgba(195, 97, 62, 0.6));
+  background-image: linear-gradient(to top, rgba(195, 97, 62, 0.5), rgba(195, 97, 62, 0.5));
 }
 
 .fancy-box-3 .content,
@@ -10171,7 +10171,7 @@ div[class^='bg-dark'] div[class^='bg-white'] .stroke-text, div[class^='bg-dark']
 }
 
 .child {
-  
+
   position: absolute;
   top: 0;
   left: 0;

@@ -977,12 +977,12 @@ h6 {
 
 p {
   margin: 0;
-  font-size: 0.9375em;
+  font-size: 1em;
   line-height: 1.86;
 }
 
 .font-large {
-  font-size: 1.063em;
+  font-size: 1.15em;
   line-height: 1.75;
 }
 
@@ -1021,7 +1021,7 @@ p {
     font-size: 14px;
   }
   p {
-    font-size: 1em;
+    font-size: 1.15em;
     line-height: 1.75;
   }
   .font-extra-small {
@@ -1031,7 +1031,7 @@ p {
     font-size: 0.85em;
   }
   .font-large {
-    font-size: 1.15em;
+    font-size: 1.30em;
   }
 }
 
@@ -8973,39 +8973,39 @@ body.loaded:after {
 }
 
 .bg-dark-09 {
-  background: rgba(20, 22, 24, 0.9);
+  background: rgba(11, 20, 11, 0.9);
 }
 
 .bg-dark-08 {
-  background: rgba(20, 22, 24, 0.8);
+  background: rgba(11, 20, 11, 0.8);
 }
 
 .bg-dark-07 {
-  background: rgba(20, 22, 24, 0.7);
+  background: rgba(11, 20, 11, 0.7);
 }
 
 .bg-dark-06 {
-  background: rgba(20, 22, 24, 0.6);
+  background: rgba(11, 20, 11, 0.6);
 }
 
 .bg-dark-05 {
-  background: rgba(20, 22, 24, 0.5);
+  background: rgba(11, 20, 11, 0.5);
 }
 
 .bg-dark-04 {
-  background: rgba(20, 22, 24, 0.4);
+  background: rgba(11, 20, 11, 0.4);
 }
 
 .bg-dark-03 {
-  background: rgba(20, 22, 24, 0.3);
+  background: rgba(11, 20, 11, 0.3);
 }
 
 .bg-dark-02 {
-  background: rgba(20, 22, 24, 0.2);
+  background: rgba(11, 20, 11, 0.2);
 }
 
 .bg-dark-01 {
-  background: rgba(20, 22, 24, 0.1);
+  background: rgba(11, 20, 11, 0.1);
 }
 
 .bg-dark-gray {

@@ -8968,6 +8968,14 @@ body.loaded:after {
   background: #000;
 }
 
+.bg-olive {
+  background: #8c875a !important;
+}
+
+.bg-green {
+  background: #26331e !important;
+}
+
 .bg-dark {
   background: #0b140b !important;
 }
@@ -10170,10 +10178,23 @@ div[class^='bg-dark'] div[class^='bg-white'] .stroke-text, div[class^='bg-dark']
   -webkit-text-stroke-color: #0b140b;
 }
 
-.child {
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
+.child-overlay {
+  position: relative;
+  top: -500px;
+  left: -60px;
 }
+
+/*@media (min-width: 768px) {
+  .child-overlay {
+    position: relative;
+    top: -500px;
+    left: -60px;  }
+}
+
+@media (min-width: 992px) {
+  .child-overlay {
+    position: relative;
+    top: -500px;
+    left: -60px;
+  }
+}*/

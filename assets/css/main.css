@@ -9016,6 +9016,14 @@ body.loaded:after {
   background: rgba(11, 20, 11, 0.1);
 }
 
+.bg-dark-gray-03 {
+  background: rgba(70, 73, 76, 0.3);
+}
+
+.bg-dark-gray-02 {
+  background: rgba(70, 73, 76, 0.2);
+}
+
 .bg-dark-gray {
   background: #46494c;
 }
@@ -10179,22 +10187,7 @@ div[class^='bg-dark'] div[class^='bg-white'] .stroke-text, div[class^='bg-dark']
 }
 
 .child-overlay {
-  position: relative;
-  top: -500px;
+  position: absolute;
+  top: -150px;
   left: -60px;
 }
-
-/*@media (min-width: 768px) {
-  .child-overlay {
-    position: relative;
-    top: -500px;
-    left: -60px;  }
-}
-
-@media (min-width: 992px) {
-  .child-overlay {
-    position: relative;
-    top: -500px;
-    left: -60px;
-  }
-}*/

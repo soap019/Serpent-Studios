@@ -5,7 +5,7 @@
 * Author        : FlaTheme
 * Author URL    : http://themeforest.net/user/flatheme
 *
-* Table of Contents : 
+* Table of Contents :
 * 1.  Page Preloaders
 * 2.  Scroll Animations
 * 3.  SmoothScroll
@@ -71,8 +71,8 @@ sal({
 ===============================================*/
 $('a[href*="#"]').not('[href="#"]').not('[data-toggle="tab"]').on("click", function(e) {
   if (
-    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-    && 
+    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+    &&
     location.hostname == this.hostname
   ) {
     var target = $(this.hash);
@@ -519,12 +519,12 @@ $(".owl-carousel").each(function() {
   var $defaults = {
     rewind: true,
     navText: ["<i class='ti-angle-left'></i>","<i class='ti-angle-right'></i>"],
-    autoHeight: true, 
-    autoplayTimeout: 4000, 
-    autoplaySpeed: 400, 
-    autoplayHoverPause: true, 
-    navSpeed: 350, 
-    dotsSpeed: 350, 
+    autoHeight: true,
+    autoplayTimeout: 4000,
+    autoplaySpeed: 400,
+    autoplayHoverPause: true,
+    navSpeed: 350,
+    dotsSpeed: 350,
     dragEndSpeed: 350
   }
   var $options = {
@@ -559,7 +559,7 @@ $(".owl-carousel").each(function() {
 
   if ($carousel.hasClass("portfolio-carousel")) {
     var $portfolioCarousel = {
-      items: 2, 
+      items: 2,
       center: true
     }
   }
@@ -652,7 +652,7 @@ var justifiedGallery = $(".justified-gallery");
 
 if (justifiedGallery.length) {
   justifiedGallery.justifiedGallery({
-    rowHeight: 340, 
+    rowHeight: 340,
     margins: 10
   });
   justifiedGallery.each(function() {
@@ -677,8 +677,8 @@ if (justifiedGallery.length) {
 ===============================================*/
 var $masonryGrid = $(".masonry").imagesLoaded( function() {
   $masonryGrid.masonry({
-    itemSelector: '.masonry-item', 
-    columnWidth: '.masonry-item', 
+    itemSelector: '.masonry-item',
+    columnWidth: '.masonry-item',
     gutter: 0
   });
 });
@@ -695,7 +695,7 @@ $(".lightbox-image-link, .lightbox-image-box").each(function () {
     type: 'image',
     fixedContentPos: false,
     removalDelay: 200,
-    closeOnContentClick: true, 
+    closeOnContentClick: true,
     image: {
       titleSrc: 'data-image-title'
     }
@@ -726,7 +726,7 @@ $(".lightbox-media-link, .lightbox-media-box").each(function() {
           src: '//player.vimeo.com/video/%id%?autoplay=1'
         }
       },
-      srcAction: "iframe_src" 
+      srcAction: "iframe_src"
     }
   });
 });
@@ -786,7 +786,7 @@ $(".accordion-title").each(function() {
   if ($this.parents(".accordion").find("li").hasClass("active")) {
     var accordionActiveContent = $this.parents(".accordion").find("li.active").children(".accordion-content");
     var accordionHeight = accordionActiveContent.prop("scrollHeight");
-    
+
     accordionActiveContent.css({'max-height': accordionHeight + "px"});
   }
 
@@ -811,7 +811,7 @@ if (counter.length) {
           }
       });
     });
-    
+
   },{accX: 0, accY: -10});
 }
 
@@ -912,7 +912,7 @@ $("#contactform").on("submit", function(e) {
 
 /*===============================================
   23. Shop
-===============================================*/  
+===============================================*/
 $(".product-quantity .qnt").append('<a class="dec qnt-button" href="#">-</a><a class="inc qnt-button" href="#">+</a>');
 
 $(".qnt-button").on("click", function(e) {

@@ -2,7 +2,7 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $to = 'your-email@example.com'; //<-- Enter your E-Mail address here.
+    $to = 'hello@theserpentstudios.com'; //<-- Enter your E-Mail address here.
     $subject = $_POST['subject'];
 
     $body = "From: $name <br> E-Mail: $email <br> Message: <br> $message";
